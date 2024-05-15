@@ -1,0 +1,17 @@
+.topping h3 {
+    margin-right: 10px; /
+}
+
+.topping {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .topping--selected {
+    background-color: lightblue;
+  }
