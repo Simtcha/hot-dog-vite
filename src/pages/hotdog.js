@@ -12,7 +12,15 @@ export const toppings = [
   ];
 
 
-export const renderToppings = (toppings) => {
+
+/*
+do funkcie renderToppings nemusíš toppings posielať ako parameter, 
+pretože toppings je definovaný v tom istom súbre a pred definovaním tej funkcie,
+ takže o ňom vie, a všetko pobeží, aj keď to bude takto:
+export const renderToppings = () => {
+    toppings.forEach((item) => { atď... */
+
+export const renderToppings = () => {
     toppings.forEach((item) => {
         
         const nadivka = document.createElement('div')
